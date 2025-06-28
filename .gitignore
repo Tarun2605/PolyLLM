@@ -6,6 +6,16 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# Plasmo build outputs
+build/
+dist/
+.plasmo/
+
+# Browser extension packages
+*.zip
+*.crx
+*.pem
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
